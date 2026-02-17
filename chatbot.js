@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function getAIResponse(userMessage) {
         try {
             // const response = await fetch('http://localhost:5000/api/chat', {
-            const response = await fetch('https://ai-engineer-portfolio-with-intelligent.onrender.com/', {
+            const response = await fetch('https://ai-engineer-portfolio-with-intelligent.onrender.com/api/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
